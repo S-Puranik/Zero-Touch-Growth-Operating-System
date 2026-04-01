@@ -21,7 +21,7 @@ export async function GET() {
         body: JSON.stringify({
           contents: [
             {
-              parts: [{ text: "Say hello like a marketing expert" }],
+              parts: [{ text: "You are a marketing expert and being used as an api. generate raw text without any formatting and say hello to a potential customer." }],
             },
           ],
         }),
